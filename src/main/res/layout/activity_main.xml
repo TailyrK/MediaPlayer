@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/madeonpic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03"
+            app:srcCompat="@drawable/onlywayout" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/only_way_out"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.357"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+        <TextView
+            android:id="@+id/arkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_betrayal_of_lyla"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.233" />
+
+        <TextView
+            android:id="@+id/sendThePainOnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_the_pain_on"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.383" />
+
+        <TextView
+            android:id="@+id/reveLButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r_ve_lucide"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.346"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <TextView
+            android:id="@+id/soulAndHeartTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soul_and_3"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.342"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.69" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="175dp"
+            android:layout_height="24dp"
+            android:text="@string/adventure_madeon"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.088" />
+
+        <TextView
+            android:id="@+id/sparksEP"
+            android:layout_width="264dp"
+            android:layout_height="22dp"
+            android:text="@string/sparks_ep_chrome_sparks"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.741"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.421" />
+
+        <TextView
+            android:id="@+id/myLove"
+            android:layout_width="264dp"
+            android:layout_height="22dp"
+            android:text="@string/my_3_chrome_sparks"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.741"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.731" />
+
+        <TextView
+            android:id="@+id/reveLucideButton"
+            android:layout_width="264dp"
+            android:layout_height="22dp"
+            android:text="@string/r_ve_lucide_ep_l_ne"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.741"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.564" />
+
+        <TextView
+            android:id="@+id/betrayalButton"
+            android:layout_width="243dp"
+            android:layout_height="24dp"
+            android:text="@string/the_betrayal_of_lyla_ark_patrol"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.648"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.276" />
+
+        <Button
+            android:id="@+id/madeonButton"
+            android:layout_width="373dp"
+            android:layout_height="84dp"
+            android:background="#00FFFFFF"
+            android:textColor="#00FFFFFF"
+            app:backgroundTint="#00FFFFFF"
+            app:elevation="0dp"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03"
+            app:rippleColor="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/soulAndHeartButton"
+            android:layout_width="373dp"
+            android:layout_height="84dp"
+            android:background="#00FFFFFF"
+            android:textColor="#00FFFFFF"
+            app:backgroundTint="#00FFFFFF"
+            app:elevation="0dp"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.745"
+            app:rippleColor="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/LuneButton"
+            android:layout_width="373dp"
+            android:layout_height="84dp"
+            android:background="#00FFFFFF"
+            android:textColor="#00FFFFFF"
+            app:backgroundTint="#00FFFFFF"
+            app:elevation="0dp"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.566"
+            app:rippleColor="#00FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/betrayalOfLylaPic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229"
+            app:srcCompat="@drawable/betrayaloflyla" />
+
+        <Button
+            android:id="@+id/arkPatrolButton"
+            android:layout_width="377dp"
+            android:layout_height="83dp"
+            android:background="#00FFFFFF"
+            app:backgroundTint="#00FFFFFF"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221"
+            app:rippleColor="#00FFFFFF"
+            app:strokeColor="#03FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/sparksPic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.393"
+            app:srcCompat="@drawable/sendthepainon" />
+
+        <Button
+            android:id="@+id/sparksButton"
+            android:layout_width="374dp"
+            android:layout_height="79dp"
+            android:background="#00FFFFFF"
+            app:backgroundTint="#00FFFFFF"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.395"
+            app:rippleColor="#00FFFFFF" />
+
+        <ImageView
+            android:id="@+id/reveLuicide"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/reveLucidePic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.558"
+            app:srcCompat="@drawable/revelucide" />
+
+        <ImageView
+            android:id="@+id/soulAndHeartPic"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/mylovepicture"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.734"
+            app:srcCompat="@drawable/soulandheart" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

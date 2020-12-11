@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">small playlist app</string>
+    <string name="only_way_out">Only Way Out</string>
+    <string name="the_betrayal_of_lyla2">The Betrayal of Lyla</string>
+    <string name="the_betrayal_of_lyla_ark_patrol">The Betrayal of Lyla - Ark Patrol</string>
+    <string name="adventure_madeon">Adventure - Madeon</string>
+    <string name="send_the_pain_on">Send The Pain On</string>
+    <string name="sparks_ep_chrome_sparks">Sparks Ep - Chrome Sparks</string>
+    <string name="sparksPic">TODO</string>
+    <string name="r_ve_lucide_ep_l_ne">Rêve Lucide Ep - LÜNE</string>
+    <string name="r_ve_lucide">Rêve Lucide</string>
+    <string name="reveLucidePic">TODO</string>
+    <string name="madeonpic">madeonPic</string>
+    <string name="betrayalOfLylaPic">boflyla</string>
+    <string name="soul_and_3"><![CDATA[Soul and <3]]></string>
+    <string name="my_3_chrome_sparks"><![CDATA[My <3 - Chrome Sparks]]></string>
+    <string name="mylovepicture">mylovePicture</string>
+    <string name="soulpicture">soulPicture</string>
+    <string name="chrome_sparks">Chrome Sparks</string>
+    <string name="playSound">TODO</string>
+    <string name="soulandheart">soulAndHeart</string>
+    <string name="soul_3"><![CDATA[Soul & <3]]></string>
+    <string name="send_the_pain_on2">Send The Pain On</string>
+    <string name="chrome_sparks2">Chrome Sparks</string>
+    <string name="sendonPicture">TODO</string>
+    <string name="albumcover">TODO</string>
+    <string name="pause">TODO</string>
+    <string name="the_betrayal_of_lyla">The Betrayal of Lyla</string>
+    <string name="randomcover">TODO</string>
+    <string name="ark_patrol">Ark Patrol</string>
+    <string name="ppause">TODO</string>
+</resources>

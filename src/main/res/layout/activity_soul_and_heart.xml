@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/constraintLayout"
+    android:layout_height="match_parent"
+    tools:context=".soulAndHeart">
+
+
+    <ImageView
+        android:id="@+id/sparkySoul"
+        android:layout_width="326dp"
+        android:layout_height="321dp"
+        android:contentDescription="@string/soulpicture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        app:srcCompat="@drawable/soulandheart" />
+
+    <TextView
+        android:id="@+id/soulAndHeart"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:text="@string/soul_3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:text="@string/chrome_sparks"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="119dp"
+        android:layout_height="123dp"
+        android:contentDescription="@string/playSound"
+        android:onClick="playSound"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966"
+        app:srcCompat="@drawable/playbutton" />
+
+    <ImageView
+        android:id="@+id/pauseButton"
+        android:layout_width="119dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="pauseSound"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/pausebutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
