@@ -20,7 +20,7 @@ class onlyWayOut : AppCompatActivity() {
             setExitFadeDuration(2000)
             start()
         }
-        }
+    }
 
     var mMediaPlayer: MediaPlayer? = null
 
